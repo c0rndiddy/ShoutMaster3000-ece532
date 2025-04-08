@@ -1,0 +1,9 @@
+project.cache/
+project.runs/
+project.sdk/
+project.sim/
+project.tmp/
+*.log
+*.lpr
+project.ip_user_files/bd/design_1/sim
+project.ip_user_files/sim_scripts/design_1

@@ -1,0 +1,72 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port micLRSel_0 -pg 1 -y 80 -defaultsOSRD
+preplace port pwm_data_o_0 -pg 1 -y 260 -defaultsOSRD
+preplace port btnc_i_0 -pg 1 -y 510 -defaultsOSRD
+preplace port pwm_en_o_0 -pg 1 -y 290 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 900 -defaultsOSRD
+preplace port usb_uart -pg 1 -y 350 -defaultsOSRD
+preplace port btnl_i_0 -pg 1 -y 130 -defaultsOSRD
+preplace port Vsync_0 -pg 1 -y 230 -defaultsOSRD
+preplace port micClk_0 -pg 1 -y 50 -defaultsOSRD
+preplace port micData_0 -pg 1 -y 540 -defaultsOSRD
+preplace port Hsync_0 -pg 1 -y 200 -defaultsOSRD
+preplace port reset -pg 1 -y 810 -defaultsOSRD
+preplace portBus vgaBlue_0 -pg 1 -y 170 -defaultsOSRD
+preplace portBus vgaGreen_0 -pg 1 -y 140 -defaultsOSRD
+preplace portBus led_o_0 -pg 1 -y 20 -defaultsOSRD
+preplace portBus vgaRed_0 -pg 1 -y 110 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -y 340 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 2 -y 680 -defaultsOSRD
+preplace inst ShoutMaster3000_0 -pg 1 -lvl 6 -y 150 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 880 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 3 -y 670 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -y 360 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -y 690 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -y 830 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -y 890 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 5 -y 690 -defaultsOSRD
+preplace netloc ShoutMaster3000_0_Vsync 1 6 1 2010J
+preplace netloc ShoutMaster3000_0_vgaRed 1 6 1 2010J
+preplace netloc ShoutMaster3000_0_pwm_data_o 1 6 1 2000J
+preplace netloc btnc_i_0_1 1 0 6 0J 100 NJ 100 NJ 100 NJ 100 NJ 100 1710J
+preplace netloc axi_uartlite_0_interrupt 1 1 6 220 90 NJ 90 NJ 90 NJ 90 1680J 440 2010
+preplace netloc microblaze_0_intr 1 2 1 NJ
+preplace netloc btnl_i_0_1 1 0 6 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 NJ
+preplace netloc microblaze_0_Clk 1 1 5 200 620 600 550 870 550 1370 110 1720
+preplace netloc microblaze_0_interrupt 1 3 1 860
+preplace netloc microblaze_0_intc_axi 1 2 4 610 120 NJ 120 NJ 120 1660
+preplace netloc ShoutMaster3000_0_led_o 1 6 1 2000J
+preplace netloc microblaze_0_ilmb_1 1 4 1 N
+preplace netloc sys_clock_1 1 0 1 NJ
+preplace netloc microblaze_0_axi_dp 1 4 1 1360
+preplace netloc ShoutMaster3000_0_vgaGreen 1 6 1 NJ
+preplace netloc ShoutMaster3000_0_pwm_en_o 1 6 1 1990J
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 3 580 540 NJ 540 1350J
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 5 1 N
+preplace netloc microblaze_0_M_AXI_IP 1 4 1 1340
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 4 570 530 NJ 530 1350 150 1670
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 2 590 560 850
+preplace netloc clk_wiz_1_locked 1 1 1 210
+preplace netloc axi_uartlite_0_UART 1 6 1 NJ
+preplace netloc micData_0_1 1 0 6 10J 140 NJ 140 NJ 140 NJ 140 NJ 140 1690J
+preplace netloc ShoutMaster3000_0_Hsync 1 6 1 2020J
+preplace netloc microblaze_0_dlmb_1 1 4 1 N
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 1700
+preplace netloc ShoutMaster3000_0_micClk 1 6 1 2010J
+preplace netloc microblaze_0_debug 1 3 1 880
+preplace netloc ShoutMaster3000_0_vgaBlue 1 6 1 2010J
+preplace netloc reset_1 1 0 2 0 810 NJ
+preplace netloc mdm_1_debug_sys_rst 1 1 3 220 950 NJ 950 860
+preplace netloc ShoutMaster3000_0_micLRSel 1 6 1 2020J
+levelinfo -pg 1 -20 110 400 730 1110 1520 1860 2050 -top 0 -bot 970
+"
+}
+{
+   "da_axi4_cnt":"5",
+   "da_board_cnt":"5",
+   "da_bram_cntlr_cnt":"1",
+   "da_mb_cnt":"1"
+}
